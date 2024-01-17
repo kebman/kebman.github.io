@@ -48,4 +48,4 @@ It's prudent to also add the key to the relevant Git hosting platform you're usi
 You can do this by going to your Git hosting platform and adding the key in the SSH keys section of your account settings.
 
 ## Add Key To Github
-Here's how you add your public key to [GitHub](How To Update Your GitHub Public Key.md).
+Here's how you [add your public key to GitHub](How To Update Your GitHub Public Key.md).
