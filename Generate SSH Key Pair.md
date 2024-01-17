@@ -1,9 +1,9 @@
 # Generate SSH Key Pair
-Before you start, check if SSH is [[Check If SSH Is Installed|up and running]].
+Before you start, check if SSH is [up and running](Check If SSH Is Installed.md).
 
 If you don't have any private or public signing keys, you'll have to use SSH to generate a new pair.
 
-Note: It might be better to make a [[Generate SSH Key Pair For Git|specific]] key pair for Git, however.
+Note: It might be better to make a [specific](Generate SSH Key Pair For Git.md) key pair for Git, however.
 
 # Read Before Running
 
