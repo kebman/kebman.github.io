@@ -28,21 +28,11 @@ Add the new private key to the SSH agent:
 
 # #4. Configure Git to Use the New Key:
 
-Copy the public key to your clipboard:
+`$ git config --global gpg.format ssh`
 
-`$ cat ~/.ssh/git_ed25519.pub | pbcopy  # On macOS`
+# #5. Specify Which Key To Use
 
-`$ cat ~/.ssh/git_ed25519.pub | clip     # On Windows with Git Bash`
-
-If you're on Linux without `pbcopy`, you can manually copy the key from `~/.ssh/git_ed25519.pub`.`
-
-# #5. Configure Git to Use the Key for Commits:
-
-Tell Git to use the new key for signing commits:
-
-`$ git config --global user.signingkey "$(ssh-keygen -lf ~/.ssh/git_ed25519.pub -E md5 | awk '{print $2}' | sed 's/://g')"`
-
-Note: On Windows, make sure to use Git Bash for this command.
+`$ git config --global user.signingkey ~/.ssh/git_ed25519.pub`
 
 Now, your new Ed25519 key pair is set up for signing Git commits. Remember to use the `-S` flag when committing to sign the commit, and Git will use this key for signing.
 
