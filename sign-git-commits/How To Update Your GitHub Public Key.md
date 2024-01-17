@@ -1,3 +1,12 @@
+# Ready Public Key For Pasting
+Copy the public key to your clipboard:
+
+`$ cat ~/.ssh/git_ed25519.pub | pbcopy  # On macOS`
+
+`$ cat ~/.ssh/git_ed25519.pub | clip     # On Windows with Git Bash`
+
+If you're on Linux without `pbcopy`, you can manually copy the key from `~/.ssh/git_ed25519.pub`.
+
 # Update SSH Key on GitHub
 1. Login to GitHub
 2. Click your profile icon (upper right)
