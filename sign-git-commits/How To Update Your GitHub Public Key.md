@@ -11,5 +11,5 @@
 	- Finally click `Add SSH Key` (green button below)
 
 # Generate Your Own Key
-In order to do the above, you need to have already generated your own public key. If you haven, then see this guide: [Generate SSH Key Pair For Git](Generate SSH Key Pair For Git.md)
+In order to do the above, you need to have already generated your own public key. If you haven't, then see this guide: [Generate SSH Key Pair For Git](Generate SSH Key Pair For Git.md)
 
