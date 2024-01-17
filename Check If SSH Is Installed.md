@@ -1,3 +1,4 @@
+# CHeck If SSH Is Installed
 Before you start, you need to check if SSH is up and running.
 
 Note: If you're on Windows, use Git Bash for all the Linux-like commands instead of PowerShell or Command Prompt.
