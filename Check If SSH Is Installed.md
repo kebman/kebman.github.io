@@ -25,7 +25,7 @@ Check if you have any public keys:
 
 `$ ls -la ~\.ssh\*.pub`
 
-If there are no keys, you'll have to a [[Generate SSH Key Pair|new key pair]].
+If there are no keys, you'll have to a [new key pair](Generate SSH Key Pair).
 
 ### Note
-Even if you have an existing key, you may still want to generate a new key pair [[Generate SSH Key Pair For Git|just for signing commits]]. The reason is because it lowers exposure and thus hypothetical risk.
+Even if you have an existing key, you may still want to generate a new key pair [just for signing commits](Generate SSH Key Pair For Git.md). The reason is because it lowers exposure and thus hypothetical risk.
