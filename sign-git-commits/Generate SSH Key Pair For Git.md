@@ -38,6 +38,10 @@ Now, your new Ed25519 key pair is set up for signing Git commits. Remember to us
 
 `$ git commit -S -m "Your commit message"`
 
+Note: If you don't want to use the -S flag every time you commit, make signing default with this line:
+
+`$ git config --global commit.gpgsign true`
+
 # #6. Git Hosting Platforms
 It's prudent to also add the key to the relevant Git hosting platform you're using (such as GitHub, GitLab, or Bitbucket).
 
