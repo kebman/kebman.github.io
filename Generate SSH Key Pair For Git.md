@@ -1,3 +1,4 @@
+# Generate SSH Key Pair For Git
 Before you start, check if SSH is [[Check If SSH Is Installed|up and running]].
 
 Use the following steps to generate a *specific* key for signing Git commits.
