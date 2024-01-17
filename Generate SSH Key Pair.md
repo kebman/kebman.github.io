@@ -1,3 +1,4 @@
+# Generate SSH Key Pair
 Before you start, check if SSH is [[Check If SSH Is Installed|up and running]].
 
 If you don't have any private or public signing keys, you'll have to use SSH to generate a new pair.
